@@ -1,0 +1,63 @@
+{
+	"functions":[
+		{"text":"PA-Announcement - via. Mike"},
+		{"text":"BDC - 5000 Route Display by Route no. or Sr. no."},
+		{"text":"BDC - Freeze, flash, scroll in both direction, 1/2 lines, 12 modes"},
+		{"text":"BDC - driving Hanover displays"},
+		{"text":"BDC - driving Mobitech displays"},
+		{"text":"BDC - driving Autometer displays"},
+		{"text":"IBDC PA02 - single key - 10 prerecorded"},
+		{"text":"Bus Stopping - display"},
+		{"text":"Panic - automatic selection of messages or Hooter with max volume"},
+		{"text":"Panic Blinker function"},
+		{"text":"VMS - Manual Next Stop display"},
+		{"text":"VMS - Manual Next Stop announcement"},
+		{"text":"VMS - GPS based Display of Next Stop"},
+		{"text":"VMS - GPS based Announcement of Next Stop"},
+		{"text":"VMS - Playing wav"},
+		{"text":"VMS - Playing mp3"},
+		{"text":"VMS - Selection of Internal / external GPS"},
+		{"text":"VMS - Messages/ Clock / Conductor ID / Driver ID"},
+		{"text":"VMS - 2 or 3 language support for next stop"},
+		{"text":"VMS - Diagnostic for audio files"},
+		{"text":"Preset at PCB"},
+		{"text":"VMS - IBDC VMS - digital volume control"},
+		{"text":"VMS - VMS - Synchronous with Inbus display"},
+		{"text":"IBDC-VMS: choice of header file"},
+		{"text":"VMS - Clock / Conductor ID / Driver ID display on Inbus"},
+		{"text":"VMS - Vehicle speed control"},
+		{"text":"VMS - LCD backlite timing is Configurable"},
+		{"text":"GPRS - VLS - Uploading GPS data "},
+		{"text":"GPRS - Remote route setting"},
+		{"text":"GPRS - remote route or messsage on display"},
+		{"text":"GPRS - Firmware downloading"},
+		{"text":"GPRS - Diagnostic"},
+		{"text":"GPRS - uploading PIS Health "}
+	],
+	"products":[
+		{
+			"name":"IBDC-GPRS",
+			"prodFuncs":["f1","f2","f3","f4","f5","f6","f7","f8","f9","f11","f12","f13","f14","f15","f16","f17","f18","f19","f20","f21","f23","f24","f25","f26","f27","f28","f29","f30","f31","f32","f33"]
+		},
+		{
+			"name":"IBDC-mp3",
+			"prodFuncs":["f1","f2","f3","f4","f5","f6","f7","f8","f9","f11","f12","f13","f14","f15","f16","f17","f18","f19","f20","f21","f23","f24","f25","f26","f27","f28","f29","f30","f31","f32","f33"]
+		},
+		{
+			"name":"IBDC GPS",
+			"prodFuncs":["f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f11","f12","f13","f14","f15","f16","f17","f18","f19","f20","f21","f23","f24","f25","f26","f27","f28","f29","f30","f31","f32","f33"]
+		},
+		{
+			"name":"IBDC-Blkr",
+			"prodFuncs":["f1","f2","f3","f4","f5","f6","f7","f8","f9","f11","f12","f13","f14","f15","f16","f17","f18","f19","f20","f21","f23","f24","f25","f27"]
+		},
+		{
+			"name":"PA 01",
+			"prodFuncs":["f1","f2","f3","f4","f5","f6","f7","f8","f9","f10","f20","f21"]
+		},
+		{
+			"name":"PA 02",
+			"prodFuncs":["f1","f9","f10","f22"]
+		}
+	]
+}

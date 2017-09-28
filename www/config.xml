@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "net.chemito.products"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+	<name>Chemito Products</name>
+	<description>Chemito Visual Marks products information and product finder</description>
+	<author href="http://chemito.net" email="amodpunekar@gmail.com">Amod Punekar</author>
+	
+	<access origin="*" />
+	<platform name="android" /> 
+	
+	<icon src="icon.png" />
+	
+	<preference name="orientation" value="portrait"/>
+	<preference name="fullscreen" value="true"/>
+	
+</widget>

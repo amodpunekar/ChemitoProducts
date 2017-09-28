@@ -1,0 +1,265 @@
+
+body,*{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 20px;
+    cursor: default;
+}
+
+td{
+	vertical-align: middle;
+}
+
+i{
+	margin-right: 5px;
+}
+
+.mainWrapper{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	min-width: 345px;
+	/*background-color: green;*/
+}
+
+.fullWidth{
+	width: 100%;
+}
+
+
+#scr1, #scr2, #scr3{
+	position: absolute;
+	display: none;
+	top: 0;
+	right: -100%;
+	bottom: 0;
+	left: 100%;
+}
+
+#scr1{z-index: 10;}
+#scr2{z-index: 20;}
+#scr3{z-index: 30;}
+
+
+.title{
+	padding: auto;
+	height: 50px;
+	width: 100%;
+	border-bottom: 4px solid #FF9501;
+	background-color: white;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.title *{
+	display: inline-block;
+}
+
+.title img{
+	height: 100%;
+	max-height: 100px;
+}
+
+.title span{
+	position: relative;
+	float: right;
+	right: 5px;
+	height: 100%;
+	font-size: 14px;
+	top: 23px;
+}
+
+/*.orangeDot{
+	margin: 0 15px;
+	color: #FF9501;
+	font-size: 80px;
+}*/
+
+.sectionsContainer{
+	position: fixed;
+	top: 54px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 345px;
+	/*text-align: center;*/
+	/*background-color: blue;*/
+}
+
+.sectionLink{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	max-width: 500px;
+	border: 5px solid #1A7C99;
+	cursor: pointer;
+	/*outline: 1px solid red;*/
+	/*background-color: deeppink;*/
+}
+
+.sectionLinkImg{
+	position: inherit;
+	width: 100%;
+	background-color: green;
+}
+
+.sectionLinkText{
+	position: absolute;
+	width: 100%;
+	padding: 5px 0;
+	bottom: 0;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: #1A7C99;
+}
+
+.sectionLink *{
+	cursor: pointer;
+}
+
+/*#btnSec1{
+	background-image: url("../img/App_SecBtn_Explore.jpg");
+}
+
+#btnSec2{
+	background-image: url("../img/App_SecBtn_Find.jpg");
+}*/
+
+.button{
+	display: inline-block;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FF9501;
+	cursor: pointer;
+}
+
+
+.heading{
+	position: fixed;
+	display: inline-block;	
+    height: 50px;
+	width: 100%;
+	min-width: 345px;
+	/*line-height: 50px;*/
+	box-shadow: 0 0 8px rgba(0,0,0,0.5);
+	background-color: white;
+	border-bottom: 4px solid #FF9501;
+	z-index: 1;
+}
+
+.headText{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	/*line-height: 50px;*/
+	text-align: center;
+}
+
+#scr1 .headText{width: 80%;}
+#scr2 .headText, #scr3 .headText{width: 90%;}
+
+#funcsContainer,
+#prodsContainer,
+#prodFuncsContainer{
+	position: inherit;
+	top:54px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow: auto;
+	background-color: white;
+}
+
+.func{
+	border-bottom: 1px solid #eeeeee;
+	background-color: lightgrey;
+	cursor: pointer;
+}
+
+.funcSel{
+	background-color: #1A7C99;
+	color: white;
+}
+
+.funcNum{
+	padding: 10px;
+	width: 25px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.funcText{
+	display: inline-block;
+	padding: 10px;
+}
+
+.funcUnselectable{
+	border-bottom: 1px solid #eeeeee;
+	background-color: lightgrey;
+}
+
+
+.prod{
+	padding: 10px;
+	border-bottom: 1px solid #eeeeee;
+	cursor: pointer;
+}
+
+.prodHover{
+	background-color: #1A7C99;
+	color: white;
+}
+
+.prodImage{
+	position: relative;
+	width: 25%;
+	max-width: 170px;
+}
+
+.prodText{
+	padding: 5px 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.prodTitle{
+	font-weight: bold;
+}
+
+.button *, .func *, .prod *{
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+
+	/*#scr2 .heading, #scr3 .heading, #scr2 .button, #scr3 .button{height: 80px;}*/
+
+	.button{width: 18%;}
+
+	#scr1 .headText{width: 64%;}
+	#scr2 .headText, #scr3 .headText{width: 82%;}
+
+	/*#prodsContainer,#prodFuncsContainer{top:80px;}*/
+}
+
+@media screen and (max-width: 700px) and (min-width: 481px) {
+	.button{width: 15%;}
+
+	#scr1 .headText{width: 70%;}
+	#scr2 .headText, #scr3 .headText{width: 85%;}
+}
+
+@media screen and (min-width: 701px) {
+	.button{width: 10%;}
+
+	#scr1 .headText{width: 80%;}
+	#scr2 .headText, #scr3 .headText{width: 90%;}
+}
