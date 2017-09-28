@@ -16,7 +16,7 @@
 	
 	<icon src="icon.png" />
 	
-	<preference name="orientation" value="portrait"/>
-	<preference name="fullscreen" value="true"/>
+	<!--<preference name="orientation" value="portrait"/>
+	<preference name="fullscreen" value="true"/>-->
 	
 </widget>
