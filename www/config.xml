@@ -11,7 +11,7 @@
 	<description>Chemito Visual Marks products information and product finder</description>
 	<author href="http://chemito.net" email="amodpunekar@gmail.com">Amod Punekar</author>
 	
-	<access origin="*" />
+	<!--<access origin="*" />-->
 	<platform name="android" /> 
 	
 	<icon src="icon.png" />
